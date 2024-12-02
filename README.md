@@ -1,6 +1,9 @@
 Name: John Carlo M. Barcelon
+
 Github username: John-Carlo-Brcelon
+
 City, Country: Batangas, Philippines
+
 Date of the video recording: December 2, 2024
 
 
