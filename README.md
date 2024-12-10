@@ -15,6 +15,7 @@ Word Guessing Game
 
 This is a simple word guessing game built with Python and Tkinter. The game features different difficulty levels with varying time limits and word templates that provide partial clues. Players can make guesses for each word, and they have a limited number of attempts to guess the correct word. The game includes a timer and tracks the player's score.
 
+
 Features
 
 Difficulty Levels: The game offers four levels of difficulty:
@@ -26,6 +27,7 @@ Intermediate
 Hard
 
 Difficult
+
 
 Word Bank: Each difficulty level has a different set of words.
 
@@ -39,6 +41,7 @@ Splash Screen: The game opens with a splash screen that transitions to the main 
 
 Main Menu: Players can choose the difficulty level or exit the game from the main menu.
 
+
 Gameplay
 
 Start the Game: After the splash screen, you will be presented with a main menu where you can start a new game or exit.
@@ -51,6 +54,7 @@ Time Limit: Each round has a time limit that decreases as the difficulty increas
 
 Scoring: For each correct guess, you score a point. The game ends after 10 rounds, and your score is displayed.
 
+
 Game Flow
 
 Splash Screen: Displays the game title for 2 seconds.
@@ -62,6 +66,7 @@ Difficulty Selection: Choose from Easy, Intermediate, Hard, or Difficult levels.
 Word Guessing: Display a word template, and the player has 5 attempts and a countdown timer to guess the word.
 
 End of Game: After 10 rounds, the final score is displayed, and the player can return to the main menu.
+
 
 Sample Gameplay
 
