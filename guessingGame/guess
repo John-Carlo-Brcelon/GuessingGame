@@ -53,6 +53,9 @@ def play_level(level_name, words):
             guess = input(f"Guess the word ({attempts} attempts left): ").strip().lower()
             clear_screen()  # Clear the screen after the user's input
             
+            # Re-display the word template after clearing the screen
+            print(f"\nWord {i + 1}: {template}")
+
             # Check time again immediately after input to handle boundary cases
             elapsed_time = time.time() - start_time
             if elapsed_time > time_limit:
@@ -61,12 +64,14 @@ def play_level(level_name, words):
                 break
             
             if guess == word and not timed_out:
-                print("Correct!")
+                print(f"Your guess is correct! The correct answer is '{word}'.")
                 score += 1
                 break
             else:
                 print("Wrong guess!")
                 attempts -= 1
+                # Print the remaining time only when the guess is wrong
+                print(f"You have {time_limit - int(elapsed_time)} seconds remaining.")
         
         if attempts == 0 or timed_out:
             print(f"The correct word was: {word}")
@@ -78,8 +83,10 @@ def play_game():
     """
     Main function to play the Word Guessing Game.
     """
-    print("Welcome to the Word Guessing Game!")
-    print("Guess the words based on the hints provided.")
+    print("\n====================================")
+    print(" WELCOME TO THE WORD GUESSING GAME!")
+    print("====================================")
+    print("\nGuess the words based on the hints provided.")
     
     total_score = 0
     while True:
