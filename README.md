@@ -1,16 +1,18 @@
 JOHN CARLO M. BARCELON
+
 BSIT 2104 
+
 TITLE: WORD GUESSING GAME
+
 YOUTUBE URL: https://youtu.be/57efdvblqUI
 
 
 Overview
-
 This is a Word Guessing Game built using Python's tkinter for the graphical user interface (GUI). Players must guess a word based on its definition, with different difficulty levels and categories available. The game features a timed challenge where players can make multiple attempts to guess the correct word.
 
 
-Features
 
+Features
 Difficulty Levels: The game offers four difficulty levels—Easy, Intermediate, Hard, and Difficult. The time limit for guessing changes based on the selected level:
 
 Easy: 25 seconds
@@ -32,8 +34,8 @@ Score System: Players accumulate points for every correct guess and can track th
 Input Validation: Players are restricted to alphabetic inputs, ensuring valid guesses.
 
 
-Usage
 
+Usage
 1. Run the game: Execute the Python script to start the game.
 
 python word_guessing_game.py
@@ -55,6 +57,7 @@ python word_guessing_game.py
 7. Game Over: At the end of the game, your final score will be displayed, and you can return to the main menu.
 
 
+
 Game Flow
   - Splash Screen: Displays the title of the game.
   - Main Menu: Offers options to start or exit the game.
@@ -64,13 +67,11 @@ Game Flow
 
 
 Files
-
 1. word_bank: A dictionary containing words and their definitions for each difficulty level and category. These words are saved into CSV files for easy access.
 2. word_guessing_game.py: The main Python file that runs the game.
 
 
 Customizing the Game
-
 1. Word Bank: You can modify the word_bank dictionary to add more categories or words.
 2. GUI: The game uses tkinter to create the graphical interface. Feel free to modify the layout or design as per your preference.
 
